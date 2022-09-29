@@ -16,6 +16,10 @@ header {
     background-color: black;
 }
 
+header a {
+    color: seashell;
+}
+
 #logo {
     float: left;
     padding-left: 10px;
@@ -38,7 +42,7 @@ header ul li {
     min-width: 1200px;
 }
 
-#text {
+#missiontext {
     background-color: black;
     position: relative;
     top: -370px;
@@ -95,4 +99,32 @@ h2 {
     height: 200px;
     width: 300px;
     margin-bottom: 10px;
+}
+
+#move {
+    position: relative;
+    top: 120px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#locationtext {
+    margin: 0px auto;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+    top: -500px;
+}
+
+.locations {
+    background-color: black;
+    margin: 0 20px;
+    max-height: 300px;
+    min-height: 300px;
+    width: 300px;
+    line-height: 50px;
 }
