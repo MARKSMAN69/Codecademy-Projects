@@ -34,7 +34,7 @@ header ul li {
     justify-content: flex-end;
 }
 
-.mission {
+#mission {
     min-width: 1200px;
 }
 
@@ -45,10 +45,39 @@ header ul li {
     width: 100%;
 }
 
+#text h2 {
+    padding-top: 12px;
+}
+
+#text h4 {
+    padding-bottom: 12px;
+}
+
 #missionbg {
     width: 1200px;
     height: 700px;
     position: relative;
     box-sizing: border-box;
     top: 70px;
+}
+
+#teamonth {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+#teamonth h4,
+h2 {
+    text-align: center;
+}
+
+.teamonth {
+    margin: 0 1%;
+    float: left;
+}
+
+.teamonth img {
+    height: 200px;
+    width: 300px;
+    align-content: space-between;
 }
