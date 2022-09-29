@@ -34,13 +34,19 @@ header ul li {
     justify-content: flex-end;
 }
 
-#mission {
+.mission {
     min-width: 1200px;
 }
 
+#text {
+    background-color: black;
+    position: relative;
+    top: -370px;
+}
+
 #missionbg {
-    min-width: 1200px;
-    min-height: 700px;
+    width: 1200px;
+    height: 700px;
     position: relative;
     box-sizing: border-box;
     top: 70px;
