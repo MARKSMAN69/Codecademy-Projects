@@ -138,6 +138,8 @@ h2 {
 }
 
 footer {
+    position: relative;
+    top: -300px;
     margin-left: 20px;
     text-align: left;
 }
