@@ -1,0 +1,42 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    position: fixed;
+}
+
+#logo {
+    float: left;
+    padding-left: 10px;
+    padding-top: 9px;
+}
+
+header ul {
+    float: right;
+    padding-right: 40px;
+}
+
+header ul li {
+    text-align: right;
+    text-decoration: underline;
+    display: inline;
+    justify-content: flex-end;
+}
+
+#mission {
+    min-width: 1200px;
+}
+
+#missionbg {
+    min-width: 1200px;
+    min-height: 700px;
+}
