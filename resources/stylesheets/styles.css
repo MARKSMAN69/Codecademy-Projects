@@ -61,14 +61,29 @@ header ul li {
     top: 70px;
 }
 
-#teamonth {
-    max-width: 1000px;
+#row1 {
     margin: 0px auto;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#teamonth h4,
+#row2 {
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+#teamonthtext h4,
 h2 {
     text-align: center;
+    margin: 0px auto;
 }
 
 .teamonth {
@@ -79,5 +94,5 @@ h2 {
 .teamonth img {
     height: 200px;
     width: 300px;
-    align-content: space-between;
+    margin-bottom: 10px;
 }
